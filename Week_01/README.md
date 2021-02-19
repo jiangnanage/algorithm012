@@ -63,15 +63,15 @@ priority queue 插入O(1) 取出 O(logn) 按照元素的优先级取出 底层�
 ### 3. 实战题目解析：盛水最多的容器、爬楼梯
 ### 4. 实战题目解析：3数之和、环形链表
 #### Array 实战题目
-- [两数之和](https://leetcode-cn.com/problems/two-sum/)（近半年内，字节跳动在面试中考查此题达到 152 次）
-- [盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water/)（腾讯、百度、字节跳动在近半年内面试常考）
-- [移动零](https://leetcode-cn.com/problems/move-zeroes/)（华为、字节跳动在近半年内面试常考）
-- [爬楼梯](https://leetcode.com/problems/climbing-stairs/)（阿里巴巴、腾讯、字节跳动在半年内面试常考）
-- [三数之和](https://leetcode-cn.com/problems/3sum/)（国内、国际大厂历年面试高频老题）
+- [两数之和](https://leetcode-cn.com/problems/two-sum/)（近半年内，字节跳动在面试中考查此题达到 152 次）**hash表**
+- [盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water/)（腾讯、百度、字节跳动在近半年内面试常考）**左右夹逼**
+- [移动零](https://leetcode-cn.com/problems/move-zeroes/)（华为、字节跳动在近半年内面试常考）**一维数组变换下标**
+- [爬楼梯](https://leetcode.com/problems/climbing-stairs/)（阿里巴巴、腾讯、字节跳动在半年内面试常考）**找重复子问题**
+- [三数之和](https://leetcode-cn.com/problems/3sum/)（国内、国际大厂历年面试高频老题）**左右夹逼**
 #### Linked List 实战题目
 - [反转链表](https://leetcode.com/problems/reverse-linked-list/)（字节跳动、亚马逊在半年内面试常考）
 - [两两交换链表中的节点](https://leetcode.com/problems/swap-nodes-in-pairs/)（阿里巴巴、字节跳动在半年内面试常考）
-- [环形链表](https://leetcode.com/problems/linked-list-cycle/)（阿里巴巴、字节跳动、腾讯在半年内面试常考）
+- [环形链表](https://leetcode.com/problems/linked-list-cycle/)（阿里巴巴、字节跳动、腾讯在半年内面试常考）**快慢指针**
 - [环形链表 II](https://leetcode.com/problems/linked-list-cycle-ii/)
 - [K 个一组翻转链表](https://leetcode.com/problems/reverse-nodes-in-k-group/)（字节跳动、猿辅导在半年内面试常考）
 ### 5. 栈和队列的实现与特性
